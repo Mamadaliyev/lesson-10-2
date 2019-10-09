@@ -1,0 +1,138 @@
+body{
+	overflow-x: hidden;
+}
+.header{
+	background-color: rgb(44,62,80) !important;
+	color: white;
+}
+.nav-item .nav-link{
+	color: white !important;
+}
+.nav-item span{
+	font-weight: bold;
+}
+.artist{
+	background-color: rgb(26,188,156);
+}
+h1{
+	color: white;
+}
+.line{
+	height: 3px;
+	background-color: white;
+	width: 65px;
+	display: inline-block;
+}
+.click{
+	display: flex;
+}
+.star{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	color: white !important;
+}
+.card{
+	border-style: none !important;
+}
+.card .rasm{
+	border-radius: 8px !important;
+}
+span{
+	color: white;
+}
+h2{
+	color: rgb(64,88,112);
+}
+.line2{
+	background-color: rgb(64,88,112);
+}
+.rasm{
+	height: 220px;
+}
+.about{
+	background-color: rgb(26,188,156);
+}
+.about h2{
+	color: white;
+}
+.about p{
+	color: white;
+}
+.btn-succes{
+	border: 1px solid white !important;
+}
+.placeholder{
+	color: rgba(0,0,0,0.5);
+}
+input{
+	width: 500px;
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	outline: none;
+}
+
+textarea{
+	display: block;
+	width: 500px;
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	outline: none;
+	height: 100px !important;
+}
+.btn{
+	background-color: rgb(26,188,156) !important;
+	color: white !important;
+}
+.foot{
+	background-color: rgb(44,62,80);
+}
+.foot h5{
+	color: white;
+}
+.foot p{
+	color: white;
+	font-size: 13px;
+}
+p a{
+	color: green;
+}
+.copyright{
+	background-color: rgb(26,37,47);
+}
+.copyright p{
+	color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+	body{
+		overflow-x: hidden;
+	}
+	h5{
+		font-size: 15px !important;
+	}
+	h1{
+		font-size: 20px !important;
+	}
+	.star{
+		width: 12px;
+		height: 12px;
+	}
+	.line{
+		height: 2px;
+		width: 30px;
+	}
+	.rasm{
+		height: 150px;
+	}
+	.about p{
+		font-size: 10px;
+	}
+	input{
+		width: 100%;
+	}
+	textarea{
+		width: 80%;
+	}
+}
